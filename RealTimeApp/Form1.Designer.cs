@@ -48,6 +48,21 @@ namespace RealTimeApp
             this.iLabel14 = new ATSCADA.iWinTools.Data.iLabel();
             this.iLabel15 = new ATSCADA.iWinTools.Data.iLabel();
             this.iLabel16 = new ATSCADA.iWinTools.Data.iLabel();
+            this.iLabel17 = new ATSCADA.iWinTools.Data.iLabel();
+            this.iLabel18 = new ATSCADA.iWinTools.Data.iLabel();
+            this.iLabel19 = new ATSCADA.iWinTools.Data.iLabel();
+            this.iLabel20 = new ATSCADA.iWinTools.Data.iLabel();
+            this.iLabel21 = new ATSCADA.iWinTools.Data.iLabel();
+            this.iLabel22 = new ATSCADA.iWinTools.Data.iLabel();
+            this.iLabel23 = new ATSCADA.iWinTools.Data.iLabel();
+            this.iLabel24 = new ATSCADA.iWinTools.Data.iLabel();
+            this.iLabel25 = new ATSCADA.iWinTools.Data.iLabel();
+            this.iLabel26 = new ATSCADA.iWinTools.Data.iLabel();
+            this.iLabel27 = new ATSCADA.iWinTools.Data.iLabel();
+            this.iLabel28 = new ATSCADA.iWinTools.Data.iLabel();
+            this.iLabel29 = new ATSCADA.iWinTools.Data.iLabel();
+            this.iLabel30 = new ATSCADA.iWinTools.Data.iLabel();
+            this.iLabel31 = new ATSCADA.iWinTools.Data.iLabel();
             this.SuspendLayout();
             // 
             // iDriver1
@@ -240,11 +255,191 @@ namespace RealTimeApp
             this.iLabel16.TagName = "AFChemTX01.NhietDoBonTronDuoi";
             this.iLabel16.Text = "Nhiệt độ bồn trộn dưới";
             // 
+            // iLabel17
+            // 
+            this.iLabel17.AutoSize = true;
+            this.iLabel17.Driver = this.iDriver1;
+            this.iLabel17.Location = new System.Drawing.Point(52, 162);
+            this.iLabel17.Name = "iLabel17";
+            this.iLabel17.Size = new System.Drawing.Size(131, 13);
+            this.iLabel17.TabIndex = 16;
+            this.iLabel17.TagName = "AFChemTX01.Run";
+            this.iLabel17.Text = "Trạng thái máy đang chạy";
+            // 
+            // iLabel18
+            // 
+            this.iLabel18.AutoSize = true;
+            this.iLabel18.Driver = this.iDriver1;
+            this.iLabel18.Location = new System.Drawing.Point(199, 162);
+            this.iLabel18.Name = "iLabel18";
+            this.iLabel18.Size = new System.Drawing.Size(120, 13);
+            this.iLabel18.TabIndex = 17;
+            this.iLabel18.TagName = "AFChemTX01.Stop";
+            this.iLabel18.Text = "Trạng thái máy đang tắt";
+            // 
+            // iLabel19
+            // 
+            this.iLabel19.AutoSize = true;
+            this.iLabel19.Driver = this.iDriver1;
+            this.iLabel19.Location = new System.Drawing.Point(329, 162);
+            this.iLabel19.Name = "iLabel19";
+            this.iLabel19.Size = new System.Drawing.Size(127, 13);
+            this.iLabel19.TabIndex = 18;
+            this.iLabel19.TagName = "AFChemTX01.ThoiGianCaiDatCapLieu";
+            this.iLabel19.Text = "Thời gian cài đặt cấp liệu";
+            // 
+            // iLabel20
+            // 
+            this.iLabel20.AutoSize = true;
+            this.iLabel20.Driver = this.iDriver1;
+            this.iLabel20.Location = new System.Drawing.Point(466, 162);
+            this.iLabel20.Name = "iLabel20";
+            this.iLabel20.Size = new System.Drawing.Size(153, 13);
+            this.iLabel20.TabIndex = 19;
+            this.iLabel20.TagName = "AFChemTX01.ThoiGianCaiDatCapLieuThem";
+            this.iLabel20.Text = "Thời gian cài đặt cấp liệu thêm";
+            // 
+            // iLabel21
+            // 
+            this.iLabel21.AutoSize = true;
+            this.iLabel21.Driver = this.iDriver1;
+            this.iLabel21.Location = new System.Drawing.Point(52, 203);
+            this.iLabel21.Name = "iLabel21";
+            this.iLabel21.Size = new System.Drawing.Size(171, 13);
+            this.iLabel21.TabIndex = 20;
+            this.iLabel21.TagName = "AFChemTX01.ThoiGianCaiDatHutCapLieuThem";
+            this.iLabel21.Text = "Thời gian cài đặt hút cấp liệu thêm";
+            // 
+            // iLabel22
+            // 
+            this.iLabel22.AutoSize = true;
+            this.iLabel22.Driver = this.iDriver1;
+            this.iLabel22.Location = new System.Drawing.Point(239, 203);
+            this.iLabel22.Name = "iLabel22";
+            this.iLabel22.Size = new System.Drawing.Size(117, 13);
+            this.iLabel22.TabIndex = 21;
+            this.iLabel22.TagName = "AFChemTX01.ThoiGianCaiDatTron1";
+            this.iLabel22.Text = "Thời gian cài đặt trộn 1";
+            // 
+            // iLabel23
+            // 
+            this.iLabel23.AutoSize = true;
+            this.iLabel23.Driver = this.iDriver1;
+            this.iLabel23.Location = new System.Drawing.Point(362, 203);
+            this.iLabel23.Name = "iLabel23";
+            this.iLabel23.Size = new System.Drawing.Size(122, 13);
+            this.iLabel23.TabIndex = 22;
+            this.iLabel23.TagName = "AFChemTX01.ThoiGianCaiDatXaDay";
+            this.iLabel23.Text = "Thời gian cài đặt xả đáy";
+            // 
+            // iLabel24
+            // 
+            this.iLabel24.AutoSize = true;
+            this.iLabel24.Driver = this.iDriver1;
+            this.iLabel24.Location = new System.Drawing.Point(497, 203);
+            this.iLabel24.Name = "iLabel24";
+            this.iLabel24.Size = new System.Drawing.Size(148, 13);
+            this.iLabel24.TabIndex = 23;
+            this.iLabel24.TagName = "AFChemTX01.ThoiGianCaiDatXaDayThem";
+            this.iLabel24.Text = "Thời gian cài đặt xả đáy thêm";
+            // 
+            // iLabel25
+            // 
+            this.iLabel25.AutoSize = true;
+            this.iLabel25.Driver = this.iDriver1;
+            this.iLabel25.Location = new System.Drawing.Point(52, 236);
+            this.iLabel25.Name = "iLabel25";
+            this.iLabel25.Size = new System.Drawing.Size(140, 13);
+            this.iLabel25.TabIndex = 24;
+            this.iLabel25.TagName = "AFChemTX01.ThoiGianCaiDatHutXaDayThem";
+            this.iLabel25.Text = "Thời gian cài đặt hút xả đáy";
+            // 
+            // iLabel26
+            // 
+            this.iLabel26.AutoSize = true;
+            this.iLabel26.Driver = this.iDriver1;
+            this.iLabel26.Location = new System.Drawing.Point(199, 236);
+            this.iLabel26.Name = "iLabel26";
+            this.iLabel26.Size = new System.Drawing.Size(146, 13);
+            this.iLabel26.TabIndex = 25;
+            this.iLabel26.TagName = "AFChemTX01.ThoiGianRungXaDay";
+            this.iLabel26.Text = "Thời gian cài đặt rung xả đáy";
+            // 
+            // iLabel27
+            // 
+            this.iLabel27.AutoSize = true;
+            this.iLabel27.Driver = this.iDriver1;
+            this.iLabel27.Location = new System.Drawing.Point(351, 236);
+            this.iLabel27.Name = "iLabel27";
+            this.iLabel27.Size = new System.Drawing.Size(117, 13);
+            this.iLabel27.TabIndex = 26;
+            this.iLabel27.TagName = "AFChemTX01.ThoiGianCaiDatTron2";
+            this.iLabel27.Text = "Thời gian cài đặt trộn 2";
+            // 
+            // iLabel28
+            // 
+            this.iLabel28.AutoSize = true;
+            this.iLabel28.Driver = this.iDriver1;
+            this.iLabel28.Location = new System.Drawing.Point(487, 236);
+            this.iLabel28.Name = "iLabel28";
+            this.iLabel28.Size = new System.Drawing.Size(152, 13);
+            this.iLabel28.TabIndex = 27;
+            this.iLabel28.TagName = "AFChemTX01.ThoiGianCaiDatRungXaHang";
+            this.iLabel28.Text = "Thời gian cài đặt rung xả hàng";
+            // 
+            // iLabel29
+            // 
+            this.iLabel29.AutoSize = true;
+            this.iLabel29.Driver = this.iDriver1;
+            this.iLabel29.Location = new System.Drawing.Point(52, 267);
+            this.iLabel29.Name = "iLabel29";
+            this.iLabel29.Size = new System.Drawing.Size(128, 13);
+            this.iLabel29.TabIndex = 28;
+            this.iLabel29.TagName = "AFChemTX01.ThoiGianCaiDatXaHang";
+            this.iLabel29.Text = "Thời gian cài đặt xả hàng";
+            // 
+            // iLabel30
+            // 
+            this.iLabel30.AutoSize = true;
+            this.iLabel30.Driver = this.iDriver1;
+            this.iLabel30.Location = new System.Drawing.Point(199, 267);
+            this.iLabel30.Name = "iLabel30";
+            this.iLabel30.Size = new System.Drawing.Size(139, 13);
+            this.iLabel30.TabIndex = 29;
+            this.iLabel30.TagName = "AFChemTX01.DatNguongNhietDoMoiTruong";
+            this.iLabel30.Text = "Ngưỡng nhiệt độ môi trường";
+            // 
+            // iLabel31
+            // 
+            this.iLabel31.AutoSize = true;
+            this.iLabel31.Driver = this.iDriver1;
+            this.iLabel31.Location = new System.Drawing.Point(351, 267);
+            this.iLabel31.Name = "iLabel31";
+            this.iLabel31.Size = new System.Drawing.Size(130, 13);
+            this.iLabel31.TabIndex = 30;
+            this.iLabel31.TagName = "AFChemTX01.DatNguongDoAmMoiTruong";
+            this.iLabel31.Text = "Ngưỡng độ ẩm môi trường";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.iLabel31);
+            this.Controls.Add(this.iLabel30);
+            this.Controls.Add(this.iLabel29);
+            this.Controls.Add(this.iLabel28);
+            this.Controls.Add(this.iLabel27);
+            this.Controls.Add(this.iLabel26);
+            this.Controls.Add(this.iLabel25);
+            this.Controls.Add(this.iLabel24);
+            this.Controls.Add(this.iLabel23);
+            this.Controls.Add(this.iLabel22);
+            this.Controls.Add(this.iLabel21);
+            this.Controls.Add(this.iLabel20);
+            this.Controls.Add(this.iLabel19);
+            this.Controls.Add(this.iLabel18);
+            this.Controls.Add(this.iLabel17);
             this.Controls.Add(this.iLabel16);
             this.Controls.Add(this.iLabel15);
             this.Controls.Add(this.iLabel14);
@@ -288,6 +483,21 @@ namespace RealTimeApp
         private ATSCADA.iWinTools.Data.iLabel iLabel14;
         private ATSCADA.iWinTools.Data.iLabel iLabel15;
         private ATSCADA.iWinTools.Data.iLabel iLabel16;
+        private ATSCADA.iWinTools.Data.iLabel iLabel17;
+        private ATSCADA.iWinTools.Data.iLabel iLabel18;
+        private ATSCADA.iWinTools.Data.iLabel iLabel19;
+        private ATSCADA.iWinTools.Data.iLabel iLabel20;
+        private ATSCADA.iWinTools.Data.iLabel iLabel21;
+        private ATSCADA.iWinTools.Data.iLabel iLabel22;
+        private ATSCADA.iWinTools.Data.iLabel iLabel23;
+        private ATSCADA.iWinTools.Data.iLabel iLabel24;
+        private ATSCADA.iWinTools.Data.iLabel iLabel25;
+        private ATSCADA.iWinTools.Data.iLabel iLabel26;
+        private ATSCADA.iWinTools.Data.iLabel iLabel27;
+        private ATSCADA.iWinTools.Data.iLabel iLabel28;
+        private ATSCADA.iWinTools.Data.iLabel iLabel29;
+        private ATSCADA.iWinTools.Data.iLabel iLabel30;
+        private ATSCADA.iWinTools.Data.iLabel iLabel31;
     }
 }
 
