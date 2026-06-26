@@ -63,6 +63,7 @@ namespace RealTimeApp
             this.iLabel29 = new ATSCADA.iWinTools.Data.iLabel();
             this.iLabel30 = new ATSCADA.iWinTools.Data.iLabel();
             this.iLabel31 = new ATSCADA.iWinTools.Data.iLabel();
+            this.iLabel32 = new ATSCADA.iWinTools.Data.iLabel();
             this.SuspendLayout();
             // 
             // iDriver1
@@ -420,11 +421,23 @@ namespace RealTimeApp
             this.iLabel31.TagName = "AFChemTX01.DatNguongDoAmMoiTruong";
             this.iLabel31.Text = "Ngưỡng độ ẩm môi trường";
             // 
+            // iLabel32
+            // 
+            this.iLabel32.AutoSize = true;
+            this.iLabel32.Driver = this.iDriver1;
+            this.iLabel32.Location = new System.Drawing.Point(497, 267);
+            this.iLabel32.Name = "iLabel32";
+            this.iLabel32.Size = new System.Drawing.Size(40, 13);
+            this.iLabel32.TabIndex = 31;
+            this.iLabel32.TagName = "AFChemTX01.MayLoi";
+            this.iLabel32.Text = "Máy lỗi";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.iLabel32);
             this.Controls.Add(this.iLabel31);
             this.Controls.Add(this.iLabel30);
             this.Controls.Add(this.iLabel29);
@@ -498,6 +511,7 @@ namespace RealTimeApp
         private ATSCADA.iWinTools.Data.iLabel iLabel29;
         private ATSCADA.iWinTools.Data.iLabel iLabel30;
         private ATSCADA.iWinTools.Data.iLabel iLabel31;
+        private ATSCADA.iWinTools.Data.iLabel iLabel32;
     }
 }
 
